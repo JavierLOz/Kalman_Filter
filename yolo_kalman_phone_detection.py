@@ -24,7 +24,7 @@ class KalmanFilter:
 
 yolo_model = "yolo_phones.pt"
 # Load YOLOv8 model
-model = YOLO(rf"/home/javier/Documents/python_files/kalman_filter/kalman_yolo/models/best.pt")
+model = YOLO(rf"best.pt")
 model.fuse()
 
 # Define detection parameters
